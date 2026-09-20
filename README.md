@@ -4,7 +4,7 @@
 
 **[简体中文](README.zh-CN.md) | English**
 
-**One leader, multiple workers, multiple models — a fully automated task relay between ZCode sessions.** Type `/relay-up` in any project to install it. Worker windows wake themselves on a schedule and pick up work; the leader reviews reports and dispatches new tasks, looping until the backlog is done. All transport is plain file I/O — the relay itself never calls any model API.
+**One leader, multiple workers, multiple models — a multi-agent division of labor for the ZCode era: the expensive model leads (decisions & acceptance), cheap models execute.** Type `/relay-up` in any project to install it. Worker windows wake themselves on a schedule and pick up work; the leader reviews reports and dispatches new tasks, looping until the backlog is done. All transport is plain file I/O — the relay itself never calls any model API. This is the cron-and-hooks ancestor of the [Kimi Code push edition](https://github.com/Great-us/relay-up).
 
 > Born out of real-world TASK-010/011 work: the entire chain (event hooks → file mailbox → scheduled wake-ups → acceptance & archival) was verified end-to-end with live sessions on a Windows machine, including verbatim hash-checked round trips.
 
