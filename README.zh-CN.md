@@ -1,8 +1,8 @@
 # Session Relay（relay-up）—— ZCode 经典版
+**[English](README.md) | 简体中文**
+<img src="assets/relay-up-demo.gif" alt="relay-up ZCode 多智能体协作演示" width="960">
 
 > **版本说明（2026-09-19）：** 本仓库是 **ZCode 经典版** —— 值班 cron 定时唤醒 + 用户级 hooks（SessionStart / UserPromptSubmit / Stop）驱动纯文件信箱的架构，已在 ZCode 会话实测。该版本作为 ZCode 用户的冻结 lineage 维护。**Kimi Code 请用推送版**（`kimi web` 服务端直推 + 一键 spawn 员工、全程无定时器）：https://github.com/Great-us/relay-up
-
-**[English](README.md) | 简体中文**
 
 **一个领导，多个员工，多个模型——ZCode 时代的多智能体分工方案：贵模型当领导（决策与验收），便宜模型当员工（执行）。** 在任意项目敲 `/relay-up` 即装；员工窗口定时自醒取件；领导审阅回报、派发新任务，循环直到做完为止。中转全程只靠文件读写，不调用任何额外模型 API。本版是 [Kimi Code 推送版](https://github.com/Great-us/relay-up)的 cron+hooks 前代实现。
 
