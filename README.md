@@ -1,5 +1,7 @@
 # Session Relay (relay-up) — ZCode classic
+
 **[简体中文](README.zh-CN.md) | English**
+
 <img src="assets/relay-up-demo.gif" alt="Relay-up ZCode multi-agent workflow demo" width="960">
 
 > **Version note (2026-09-19):** this is the **ZCode classic** line — cron-scheduled watcher wake-ups + user hooks (SessionStart / UserPromptSubmit / Stop) over a plain-file mailbox, verified against ZCode sessions. It is maintained as a frozen lineage for ZCode users. For **Kimi Code**, use the push-first edition (**`kimi web` server push + one-command worker spawning, no timers**): https://github.com/Great-us/relay-up
